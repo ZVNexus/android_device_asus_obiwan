@@ -43,6 +43,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/sound_trigger_mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sound_trigger_mixer_paths.xml \
     $(LOCAL_PATH)/audio/sound_trigger_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sound_trigger_platform_info.xml
 
+PRODUCT_PACKAGES += \
+    audio_amplifier.kona
+
 # AuthSecret
 PRODUCT_PACKAGES += \
     android.hardware.authsecret@1.0.vendor

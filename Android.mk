@@ -8,6 +8,8 @@ LOCAL_PATH := $(call my-dir)
 
 ifneq ($(filter obiwan,$(TARGET_DEVICE)),)
 
+include $(call all-makefiles-under,$(LOCAL_PATH))
+
 FACTORY_MOUNT_POINT_SYMLINK := $(TARGET_OUT_VENDOR)/factory
 $(FACTORY_MOUNT_POINT_SYMLINK): $(LOCAL_INSTALLED_MODULE)
 	@echo "Creating $@ link"
