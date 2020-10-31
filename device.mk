@@ -197,6 +197,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGES += \
     FrameworksResTarget \
     ROGFrameworks \
+    ROGSystemUI \
     WifiResTarget
 
 # Partitions
