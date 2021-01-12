@@ -26,6 +26,7 @@ cc_binary {
         "liblog",
         "libutils",
         "vendor.aospa.biometrics.fingerprint.inscreen@1.0",
+        "vendor.goodix.hardware.biometrics.fingerprint@2.1",
     ],
     system_ext_specific: true,
 }
