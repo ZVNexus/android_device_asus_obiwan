@@ -41,6 +41,13 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/audio_platform_info_intcodec.xml:$(TARGET_COPY_OUT_VENDOR)/audio_platform_info_intcodec.xml \
     $(LOCAL_PATH)/configs/audio/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/mixer_paths.xml
 
+# Biometrics
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.hardware.fingerprint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.fingerprint.xml
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.hardware.fingerprint=goodixfp
+
 # Bluetooth
 PRODUCT_PACKAGES += \
     audio.bluetooth.default \

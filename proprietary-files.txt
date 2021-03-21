@@ -571,11 +571,14 @@ vendor/lib64/libfastcvdsp_stub.so
 -vendor/lib64/libfastcvopt.so
 
 # Fingerprint - ROG
+vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service|68503eccc80d59f4b6fc612508e78e2ca9049fbc
 vendor/bin/cali_check|be7dff3a62cce8e2b0b4b051e6d03b8cd58d9bc7
 vendor/bin/cali_shipping_check|49d94ed163ed59b5f7a8fcd1000e00833f191b8c
 vendor/bin/fp_cali_mv|96ad5e207be74205fcb399a3739ba737228776ae
 vendor/bin/gf_ver.sh|5a0c50a42da510652ec56eb5197ff631cd1f5d01
+vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc|9cfd16d8eb147369f892a8e2d98233e982a6d2a9
 vendor/etc/init/init.goodixfp.rc|38a48273b97fc430da77d76ad4c249e52812ec90
+-vendor/etc/vintf/manifest/android.hardware.biometrics.fingerprint@2.1-service.xml|49e82d6a43981e254d224dcc93b3ff27e0fb8407
 vendor/firmware/goodix_9886_cfg_group.bin|50e23ff45576f6ce3f71bffde99b89baa4631827
 vendor/firmware/goodix_9886_config.cfg|92af7040578240ce97c81c969080be247f883b6b
 vendor/firmware/goodix_9886_config_test.cfg|677a67ff425ed82a1cc5687565f182aa3a052c33
