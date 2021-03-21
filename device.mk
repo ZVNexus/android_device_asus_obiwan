@@ -219,6 +219,10 @@ PRODUCT_SYSTEM_EXT_PROPERTIES += \
     ro.telephony.default_network=33,33 \
     telephony.lteOnCdmaDevice=1
 
+# Thermal
+PRODUCT_PACKAGES += \
+    android.hardware.thermal@2.0-service.qti
+
 # Treble
 PRODUCT_FULL_TREBLE_OVERRIDE := true
 
