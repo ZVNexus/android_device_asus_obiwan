@@ -65,6 +65,9 @@ BOARD_KERNEL_SEPARATED_DTBO := true
 # Display
 TARGET_SCREEN_DENSITY := 420
 
+# Hacks
+BUILD_BROKEN_DUP_RULES := true
+
 # Kernel
 BOARD_KERNEL_CMDLINE := \
     androidboot.console=ttyMSM0 \
