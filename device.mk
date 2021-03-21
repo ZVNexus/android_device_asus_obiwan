@@ -79,6 +79,15 @@ PRODUCT_SYSTEM_EXT_PROPERTIES += \
     persist.vendor.data.mode=concurrent \
     ro.vendor.use_data_netmgrd=true
 
+# Display
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.hardware.touchscreen.multitouch.jazzhand.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.touchscreen.multitouch.jazzhand.xml
+
+PRODUCT_PACKAGES += \
+    libqdutils \
+    libqservice \
+    libtinyxml
+
 # Fastboot
 PRODUCT_PACKAGES += \
     fastbootd
