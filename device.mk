@@ -66,6 +66,7 @@ PRODUCT_PACKAGES += \
     fstab.qcom \
     init.qti.dcvs.sh \
     init.qti.ufs.rc \
+    init.rog.camera.rc \
     init.target.rc
 
 # Media
