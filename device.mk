@@ -42,11 +42,6 @@ PRODUCT_PACKAGES += \
     android.hardware.boot@1.1-impl-qti.recovery \
     android.hardware.boot@1.1-service
 
-# Data
-PRODUCT_SYSTEM_EXT_PROPERTIES += \
-    persist.vendor.data.mode=concurrent \
-    ro.vendor.use_data_netmgrd=true
-
 # CNE
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
     persist.vendor.cne.feature=1
@@ -71,6 +66,15 @@ PRODUCT_SYSTEM_EXT_PROPERTIES += \
 # Config Store
 PRODUCT_PACKAGES += \
     disable_configstore
+
+# DPM
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.vendor.dpmhalservice.enable=1
+
+# Data
+PRODUCT_SYSTEM_EXT_PROPERTIES += \
+    persist.vendor.data.mode=concurrent \
+    ro.vendor.use_data_netmgrd=true
 
 # Fastboot
 PRODUCT_PACKAGES += \
@@ -114,6 +118,16 @@ TARGET_BOARD_PLATFORM := kona
 # QTI
 TARGET_COMMON_QTI_COMPONENTS := all
 
+# RIL
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.radio.multisim.config=dsds \
+    persist.vendor.radio.apm_sim_not_pwdn=1 \
+    persist.vendor.radio.custom_ecc=1 \
+    persist.vendor.radio.enableadvancedscan=true \
+    persist.vendor.radio.procedure_bytes=SKIP \
+    persist.vendor.radio.rat_on=combine \
+    persist.vendor.radio.sib16_support=1
+
 # Sensors
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
     persist.vendor.sensors.enable.mag_filter=true
@@ -122,6 +136,11 @@ PRODUCT_SYSTEM_EXT_PROPERTIES += \
 PRODUCT_SHIPPING_API_LEVEL := 29
 
 # Telephony
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.hardware.telephony.gsm.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.telephony.gsm.xml \
+    frameworks/native/data/etc/android.hardware.telephony.cdma.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.telephony.cdma.xml \
+    frameworks/native/data/etc/android.hardware.telephony.ims.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.telephony.ims.xml
+
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
     DEVICE_PROVISIONED=1 \
     ril.subscription.types=NV,RUIM \
