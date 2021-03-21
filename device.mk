@@ -133,6 +133,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.crypto.volume.metadata.method=dm-default-key \
     ro.hardware.keystore_desede=true
 
+# Lights
+PRODUCT_PACKAGES += \
+    android.hardware.lights-service.qti
+
 # Media
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
     media.settings.xml=/vendor/etc/media_profiles_vendor.xml \
