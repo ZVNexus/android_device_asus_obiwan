@@ -118,6 +118,17 @@ PRODUCT_PACKAGES += \
     init.rog.camera.rc \
     init.target.rc
 
+# Keymaster
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.hardware.strongbox_keystore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.strongbox_keystore.xml
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.crypto.allow_encrypt_override=true \
+    ro.crypto.dm_default_key.options_format.version=2 \
+    ro.crypto.volume.filenames_mode="aes-256-cts" \
+    ro.crypto.volume.metadata.method=dm-default-key \
+    ro.hardware.keystore_desede=true
+
 # Media
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
     media.settings.xml=/vendor/etc/media_profiles_vendor.xml \
