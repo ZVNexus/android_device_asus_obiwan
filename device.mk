@@ -162,7 +162,12 @@ PRODUCT_PACKAGES += \
     init.qti.dcvs.sh \
     init.qti.ufs.rc \
     init.rog.camera.rc \
+    init.rog.kernel.rc \
     init.target.rc
+
+# Kernel
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/modules,$(TARGET_COPY_OUT_VENDOR)/lib/modules)
 
 # Keymaster
 PRODUCT_COPY_FILES += \
