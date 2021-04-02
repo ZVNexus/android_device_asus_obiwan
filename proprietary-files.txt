@@ -68,14 +68,6 @@ vendor/firmware/a650_zap.elf|cfd50ccb4cdd44690e483955c6185625c464ac9e
 vendor/firmware/a650_zap.mdt|1b91925c85b41329ff4e0bde59b31a0aa627202a
 
 # Audio
-vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb
-vendor/etc/acdbdata/MTP/MTP_General_cal.acdb
-vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb
-vendor/etc/acdbdata/MTP/MTP_Handset_cal.acdb
-vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb
-vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb
-vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb
-vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp
 vendor/lib/hw/sound_trigger.primary.kona.so
 vendor/lib/soundfx/libasphere.so
 vendor/lib/soundfx/libqcbassboost.so
@@ -100,9 +92,6 @@ vendor/lib/libOmxMpeghDecSw.so
 vendor/lib/libOmxMpeghEncSw.so
 vendor/lib/libOmxQcelp13Dec.so
 vendor/lib/libOmxWmaDec.so
-vendor/lib/libacdb-fts.so
-vendor/lib/libacdbrtac.so
-vendor/lib/libacdbloader.so
 vendor/lib/libadiertac.so
 vendor/lib/libadm.so
 vendor/lib/libadpcmdec.so
@@ -151,9 +140,6 @@ vendor/lib64/libOmxG711Dec.so
 vendor/lib64/libOmxMpeghEncSw.so
 vendor/lib64/libOmxQcelp13Dec.so
 vendor/lib64/libOmxWmaDec.so
-vendor/lib64/libacdb-fts.so
-vendor/lib64/libacdbrtac.so
-vendor/lib64/libacdbloader.so
 vendor/lib64/libadiertac.so
 vendor/lib64/libaudcal.so
 vendor/lib64/libaudio_log_utils.so
@@ -176,8 +162,25 @@ vendor/lib64/libstagefright_soft_qtiflacdec.so
 vendor/lib64/vendor.qti.voiceprint@1.0.so
 
 # Audio - ROG
+vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb|cfd95371be4893969d3da5c4dde5c3c368230d85
+vendor/etc/acdbdata/MTP/MTP_General_cal.acdb|047705a6c2aa0096ae443668f497bc6574364006
+vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb|efeeeb61cd5606fcde9b75a0273f2673260a1e21
+vendor/etc/acdbdata/MTP/MTP_Handset_cal.acdb|114babc4812871d1abdda0c23a9882842d85531d
+vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb|89c598eed7ed2b93992cd8a9bd6dc2c0979d9915
+vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb|c22d91be38ca5b94366502e7c51202990a405ce1
+vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb|51f58b4cd491e089613dabbc969febca329a0eef
+vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp|780f0ec772f48a3140d489982ce976802bbbddd3
+vendor/etc/acdbdata/adsp_avs_config.acdb|1abc51762b59348a3210135e713f084ca617a668
 vendor/firmware/stereo.cnt|f2ed786e8c9ec9b0e81bc3fc7b76910fb00817eb
 vendor/firmware/tfa98xx.cnt|617d7db564128f9b28cfcce1e1f772c10e8eb239
+vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDADV_Encoder.so|56ab1e44581cacd3597e8a135c0add785d2664d1
+vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Speech_Decoder.so|e7c875337c2270af21090f963c06e18a238442c6
+vendor/lib/libacdb-fts.so|6bc647c3dfd28a5eb812b0e232c45c3d5deb04f3
+vendor/lib/libacdbrtac.so|303f98f24b538c181807256e0bea514ed73231e4
+vendor/lib/libacdbloader.so|52fcdb425eca00c9259d6dab2ff8d97ab33c7546
+vendor/lib64/libacdb-fts.so|789501399475e00f41248ee9566dae8c02783bac
+vendor/lib64/libacdbrtac.so|18de643509f126e8f2269e0061499a2c9fa39cd7
+vendor/lib64/libacdbloader.so|eddc03bc83eb57f459ded751b27531bddc42c17f
 
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
