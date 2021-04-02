@@ -197,6 +197,9 @@ PRODUCT_SYSTEM_EXT_PROPERTIES += \
     media.stagefright.thumbnail.prefer_hw_codecs=true \
     ro.media.recorder-max-base-layer-fps=60
 
+# NFC
+TARGET_USES_NQ_NFC := true
+
 # Namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
