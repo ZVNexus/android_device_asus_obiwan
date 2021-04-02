@@ -32,6 +32,13 @@ PRODUCT_PACKAGES += \
 # APEX
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
+# Adreno
+PRODUCT_SYSTEM_EXT_PROPERTIES += \
+    ro.gfx.driver.0=com.asus.gpudrivers.kona.api30
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.gfx.driver.1=com.qualcomm.qti.gpudrivers.kona.api30
+
 # Attestation
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.device_id_attestation.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.device_id_attestation.xml
