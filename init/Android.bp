@@ -33,9 +33,23 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
+    name: "init.rog.sensors.rc",
+    src: "init.rog.sensors.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
     name: "init.target.rc",
     src: "init.target.rc",
     sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "ueventd.rog.rc",
+    filename: "ueventd.rc",
+    src: "ueventd.rog.rc",
     vendor: true,
 }
 

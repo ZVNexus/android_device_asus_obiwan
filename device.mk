@@ -170,7 +170,9 @@ PRODUCT_PACKAGES += \
     init.qti.ufs.rc \
     init.rog.camera.rc \
     init.rog.kernel.rc \
-    init.target.rc
+    init.rog.sensors.rc \
+    init.target.rc \
+    ueventd.rog.rc
 
 # Kernel
 PRODUCT_COPY_FILES += \
@@ -245,7 +247,6 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.sensor.stepdetector.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.stepdetector.xml
 
 PRODUCT_PACKAGES += \
-    android.hardware.sensors@2.0-service.multihal \
     libsensorndkbridge
 
 PRODUCT_PROPERTY_OVERRIDES += \

@@ -1004,27 +1004,10 @@ vendor/lib64/libminkdescriptor.so
 vendor/lib64/libnative-api.so
 vendor/lib64/libqcbor.so
 
-# SNS
-vendor/bin/sensors.qti
-vendor/bin/sscrpcd
-vendor/etc/init/init.vendor.sensors.rc
-vendor/etc/init/vendor.sensors.qti.rc
-vendor/etc/init/vendor.sensors.sscrpcd.rc
-vendor/lib/rfsa/adsp/libsns_device_mode_skel.so
-vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so
-vendor/lib64/rfsa/adsp/libsns_device_mode_skel.so
-vendor/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so
-vendor/lib64/libsensorslog.so
-vendor/lib64/libsnsapi.so
-vendor/lib64/libsnsdiaglog.so
-vendor/lib64/libsns_device_mode_stub.so
-vendor/lib64/libsns_fastRPC_util.so
-vendor/lib64/libsns_low_lat_stream_stub.so
-vendor/lib64/libsns_registry_skel.so
-vendor/lib64/libssc.so
-vendor/lib64/sensors.ssc.so
-
 # SNS - ROG
+vendor/bin/hw/android.hardware.sensors@2.0-service.multihal|00ba1e1966156e1b2b72b3a5e07ae4168f131ebf
+vendor/bin/sensors.qti|f0495fc132051b4ccd4c9832107b6995dd900617
+vendor/bin/sscrpcd|ed4c24670438cbb63a91893bfeeff9444b77cc15
 vendor/etc/grip_cal/cal_test_f_result.txt|da39a3ee5e6b4b0d3255bfef95601890afd80709
 vendor/etc/grip_cal/grip_bar0_test_result.txt|da39a3ee5e6b4b0d3255bfef95601890afd80709
 vendor/etc/grip_cal/grip_bar1_test_result.txt|da39a3ee5e6b4b0d3255bfef95601890afd80709
@@ -1037,6 +1020,11 @@ vendor/etc/grip_cal/snt_wfmcfg|0f69bfaa81dd1ddf4c14f9a700db77a58ab6861d
 vendor/etc/grip_fw/snt8100fsr.image|1f67dfbdc30cb266cb7804223550429dd6e68360
 vendor/etc/grip_fw/snt8100fsr.image_2.12.43|22e1fa8b9386c039f23009c6862e9f8a440b6237
 vendor/etc/grip_fw/snt8100fsr.image_2nd|9ecd5f56a2cf5e5280aa3204cd74b62dfac98d72
+vendor/etc/init/android.hardware.sensors@2.0-service-multihal.rc|11932c75de7c80ef2049538a6977a905ee6c38bf
+vendor/etc/init/init.vendor.sensors.rc|5edfb483239e7f2d92aab56bafe495d03cfc3c57
+vendor/etc/init/vendor.sensors.qti.rc|551e85b6278214e284151a507c909b17d800a254
+vendor/etc/init/vendor.sensors.sscrpcd.rc|51ce82bf86d02efaea77478c027f2a96f4932790
+-vendor/etc/vintf/manifest/android.hardware.sensors@2.0-multihal.xml|87dac2a487939997d4a8aa8382c38dfcbf23119c
 vendor/firmware/slpi.b00|bcddb2ba4b593493c191cbf75f91e57c96a88d95
 vendor/firmware/slpi.b01|d47ee348d3c50d266c806e7991d092c66704500a
 vendor/firmware/slpi.b02|ac75dfbdea0ea7b10d5136815c907582844d956f
@@ -1061,6 +1049,19 @@ vendor/firmware/slpi.b20|44a1a788422202ab8f817206788233101937a463
 vendor/firmware/slpi.b21|da39a3ee5e6b4b0d3255bfef95601890afd80709
 vendor/firmware/slpi.mbn|c1b75a432ffbfe178dcd35b24ce36407526b6825
 vendor/firmware/slpi.mdt|df818912da223868c79ad632b797253168f30d7c
+vendor/lib/rfsa/adsp/libsns_device_mode_skel.so|733a5b8861bb6eb1285bb8982992531c94800997
+vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so|c30bb30eecf968e02f72c055d3cc13a7f769644f
+vendor/lib64/rfsa/adsp/libsns_device_mode_skel.so|733a5b8861bb6eb1285bb8982992531c94800997
+vendor/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so|c30bb30eecf968e02f72c055d3cc13a7f769644f
+vendor/lib64/libsensorslog.so|9472ab723e99e531b6611b726089efccb8fc8d42
+vendor/lib64/libsnsapi.so|7ec7a02e0fdd6efda16f02637323aa051f74a698
+vendor/lib64/libsnsdiaglog.so|19e18c5dcdaec1c9e3a7f9ac877334ed5f8c1e3c
+vendor/lib64/libsns_device_mode_stub.so|5122ec9c1ef6b13be5573579b922ba4027982bd3
+vendor/lib64/libsns_fastRPC_util.so|066cff2993ee6b503f49e52406ed6a28f9343ef3
+vendor/lib64/libsns_low_lat_stream_stub.so|85fe99bc8fae277022af4708452b5672cc32335f
+vendor/lib64/libsns_registry_skel.so|22fc0db0014d4b6c9d8bbee36b4942281e06e723
+vendor/lib64/libssc.so|d86838be01cdead39fcf7d5d9264028a188c0d8f
+vendor/lib64/sensors.ssc.so|9309abf0275cc5980d9cd65ab818b7267fd49f6f
 
 # SNS (Configurations) - ROG
 vendor/etc/sensors/config/af6133e_0.json|c4d1fb9f35f293d3a84458c16ea88f195ee63359
