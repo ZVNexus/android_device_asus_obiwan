@@ -382,7 +382,7 @@ vendor/lib64/camera/fdconfigpreview.bin|296e62a60a81aa7ba153e6d4fd4af34d1b2a4c8b
 vendor/lib64/camera/fdconfigpreviewlite.bin|296e62a60a81aa7ba153e6d4fd4af34d1b2a4c8b
 vendor/lib64/camera/fdconfigvideo.bin|296e62a60a81aa7ba153e6d4fd4af34d1b2a4c8b
 vendor/lib64/camera/fdconfigvideolite.bin|296e62a60a81aa7ba153e6d4fd4af34d1b2a4c8b
-vendor/lib64/hw/camera.qcom.so|817773e6ce842983833bb5b627f820d962fa5a8d
+vendor/lib64/hw/camera.qcom.so|c064abf2ad046a05aeaba5a4623ce30873fcd0e0
 vendor/lib64/hw/com.qti.chi.override.so|9626a95129a47165340dfe5565edf6e928f0e77f
 vendor/lib64/com.qti.feature2.anchorsync.so|21fa95e68e75aeb21c9334cef2a7145bae828891
 vendor/lib64/com.qti.feature2.arcrawpro.so|e4b55a014fb4565b51fe794862924d1f4fa79faa
@@ -446,7 +446,7 @@ vendor/lib64/libvidhance.so|dea4eb445b9ffff5a42ed2d22717747cbd76ba65
 vendor/lib64/libxditk_DIT_MSMv1.so|429291b280553b5b02d6a3d1241b3d27833d19b7
 vendor/lib64/libxditk_DIT_Manager.so|705caccae802e015974e1235cb1444611fdf4cae
 vendor/lib64/libxditk_ISP.so|7eba0c57ce72ce005ec330291ccf6df1be54f62e
-vendor/lib64/libxditk_arch.so|10acbaa1dde459f83194bbac34ab6ebfd4c077fe
+vendor/lib64/libxditk_arch.so|3c2aab81e83d8861d56ad1f414551eb3a722bdf5
 vendor/lib64/libxditk_ditArchLIB.so|e14cc9292bfd8d69744a3943fb04e178af1618a4
 vendor/lib64/libxditk_ditBSP.so|3e6ad058d562e9e9448d8864ddad1c09989a10d7
 vendor/lib64/libxditk_ditBSP_JNI.so|37850da1c9e737b685324d132212d82b8d03ba79
@@ -586,7 +586,7 @@ vendor/firmware/goodix_9886_configs_glove.cfg|77c52877278037a8aaa627308f216d02b1
 vendor/firmware/goodix_9886_firmware.bin|449af2cabedb3d6556c567d2886ee2aea4fa9681
 vendor/firmware/goodix_9896_cfg_group.bin|1fe8066fe513553c959670498b8a059c8c06c825
 vendor/firmware/goodix_9896_config.cfg|59ca9a62296c21c91f297e3406e735bf6c3230d3
-vendor/firmware/goodix_9896_config_glove.cfg|6c772e281280604bf6779d21b7a7ef7b81fd5c48
+vendor/firmware/goodix_9896_config_glove.cfg|0bdba150923d270f997c2cac9b2cd899cbcef43e
 vendor/firmware/goodix_9896_config_test.cfg|23f8f534864f6a60b893b3d023db60ee2509349e
 vendor/firmware/goodix_9896_firmware.bin|a693f7fd545d1e2c84b3d0b904ede27874d7865c
 vendor/firmware/goodixfp.b00|145c8bf16f33da8f4ccff3e1e6628abdc3e25d72
@@ -753,17 +753,17 @@ vendor/lib/libmmosal.so
 vendor/lib64/libmmosal.so
 
 # Media - ROG
-vendor/firmware/venus.b00|657e5749f3dab8b57a74e9c264a5866a7e3df75a
-vendor/firmware/venus.b01|b05e09ed966754de9d28ea667c580b9dd121ce01
-vendor/firmware/venus.b02|e4df24672b9c7ffbd778435a0eb2844ed4f234e2
+vendor/firmware/venus.b00|227706388efc1f016644bcad5eeb0f033579613d
+vendor/firmware/venus.b01|e846e201f96fe6f722b446177daac3e70a1e974e
+vendor/firmware/venus.b02|dd7782c910a81a3c5830e8c27cc136f6c4c0535e
 vendor/firmware/venus.b03|7772b18b16e520641e8051fd6284384e9b0e1939
-vendor/firmware/venus.b04|85c041c6d98e42090f6ea43eea714c3575816a6d
+vendor/firmware/venus.b04|b9cc8af0acee17bfd87ed1ee727856083e96b439
 vendor/firmware/venus.b05|f726e7fa233485e02ef6172833d51353627aa81d
 vendor/firmware/venus.b06|e19854e03b52cc67d7db620f54609b66d1b85f54
 vendor/firmware/venus.b07|0b403b94f400e8f76ac5f5f18f6957318ec2a582
 vendor/firmware/venus.b08|86a5ed4d22759036806d9321f8e509628f64c5b6
-vendor/firmware/venus.b09|e96fad7c6acb02beb7b5395f7c5bbee48e0c51eb
-vendor/firmware/venus.b10|47b7ebc3cbb55e2a48e6c7ea74f420089ca5a96f
+vendor/firmware/venus.b09|89046d6f9dffa3e144e48d0bcfdfd32a0ead9bf8
+vendor/firmware/venus.b10|5c9aee6e0da8326c7480d583ea9aa9eae8658251
 vendor/firmware/venus.b11|da39a3ee5e6b4b0d3255bfef95601890afd80709
 vendor/firmware/venus.b12|da39a3ee5e6b4b0d3255bfef95601890afd80709
 vendor/firmware/venus.b13|da39a3ee5e6b4b0d3255bfef95601890afd80709
@@ -773,7 +773,7 @@ vendor/firmware/venus.b16|da39a3ee5e6b4b0d3255bfef95601890afd80709
 vendor/firmware/venus.b17|da39a3ee5e6b4b0d3255bfef95601890afd80709
 vendor/firmware/venus.b18|da39a3ee5e6b4b0d3255bfef95601890afd80709
 vendor/firmware/venus.b19|c1756e0567d10a1173f481cd367ff4637b2dd77f
-vendor/firmware/venus.mdt|4977209aef7557d002c4e7870722c896c9d648c1
+vendor/firmware/venus.mdt|6b1353c586da773b724d793a842e40d1248e54c4
 
 # NFC - ROG
 vendor/etc/libnfc-nxp.conf|3e9e1b591425be123dbcfa9179f90679dfb73792
@@ -1061,7 +1061,7 @@ vendor/lib64/libsns_fastRPC_util.so|066cff2993ee6b503f49e52406ed6a28f9343ef3
 vendor/lib64/libsns_low_lat_stream_stub.so|85fe99bc8fae277022af4708452b5672cc32335f
 vendor/lib64/libsns_registry_skel.so|22fc0db0014d4b6c9d8bbee36b4942281e06e723
 vendor/lib64/libssc.so|d86838be01cdead39fcf7d5d9264028a188c0d8f
-vendor/lib64/sensors.ssc.so|9309abf0275cc5980d9cd65ab818b7267fd49f6f
+vendor/lib64/sensors.ssc.so|46b3b09dcbcbec0f6adb58a1afbd6536c4abe336
 
 # SNS (Configurations) - ROG
 vendor/etc/sensors/config/af6133e_0.json|c4d1fb9f35f293d3a84458c16ea88f195ee63359
@@ -1399,8 +1399,8 @@ vendor/lib64/hw/vendor.asus.hardware.vibratorcontrol@1.0-impl.so|59abc69f9cf8fe0
 vendor/lib64/vendor.asus.hardware.vibratorcontrol@1.0.so|4cff315b5e8a70fcb3104899ebb958a35d3ecdc2
 
 # WLAN - ROG
-vendor/firmware/CNbdwlan.e17|6a6a4d3b1de29a4601ac194531a09c11fa12adf8
-vendor/firmware/bdwlan.e17|c9456796f6fe5d2b76093e0f16dfc98c9c0fdc73
+vendor/firmware/CNbdwlan.e17|5c7ebcf30dbbd0683796b030152bd99fa32311f9
+vendor/firmware/bdwlan.e17|84a4c1c4cf95cf41d53fa4ca3ba34f96ad52d17a
 vendor/firmware/key.cfg|e7d326520e8fe0cf472920b6136ad9d4fba26dc2
 
 # Widevine - ROG
