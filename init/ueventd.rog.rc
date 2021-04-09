@@ -12,6 +12,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Firmware
+firmware_directories /vendor/firmware/awinic
+firmware_directories /vendor/firmware/q6_ZS661KS_sm8250_image
+firmware_directories /vendor/firmware/rog2_haptic
+
 # Sensors
 /dev/lsensor        0640   system    system
 /dev/psensor        0640   system    system
