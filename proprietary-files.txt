@@ -58,7 +58,7 @@ vendor/firmware/cdsp.mdt|0c5f0f60ae78fba028f60cc4816e010c96c21449
 
 # Adreno - ROG
 -vendor/app/com.asus.gpudrivers.kona.api30/com.asus.gpudrivers.kona.api30.apk;PRESIGNED|40a437da0fe80ff05be5bea75641ba3188e82dbd
--vendor/app/com.qualcomm.qti.gpudrivers.kona.api30/com.qualcomm.qti.gpudrivers.kona.api30.apk;PRESIGNED|6e85bf1b79c77e90c41863283655d3543d003a63
+-vendor/app/com.qualcomm.qti.gpudrivers.kona.api30/com.qualcomm.qti.gpudrivers.kona.api30.apk;PRESIGNED|dbd082153eacd3f4cb4ebe1603c09d4a551e8ab8
 vendor/firmware/a650_sqe.fw|12a8b97c9dd9de7eb759dada1ae11c5cdc08a2a2
 vendor/firmware/a650_gmu.bin|c744acb10afb7c980d333c5b6521e2a18993ff14
 vendor/firmware/a650_zap.b00|8c20cfff20d7fe9814581b353c1f58d38636e8c5
@@ -365,7 +365,7 @@ vendor/lib64/camera/com.qti.sensormodule.ov13855_rear_aux.bin|8da429bfe49481ff52
 vendor/lib64/camera/com.qti.sensormodule.ov24b1q.bin|eb981af5d7f15acfdad970359c898a7617a77661
 vendor/lib64/camera/com.qti.sensormodule.ov8856.bin|08c7d029c3d9a7ff19fc6bea595b6fb59b315914
 vendor/lib64/camera/com.qti.tuned.default.bin|58cd782c2a66b137c0468e0bf09070fc55bf2dae
-vendor/lib64/camera/com.qti.tuned.imx686.bin|5509d1bd812978ee7da87f752eed9e15240ba6d4
+vendor/lib64/camera/com.qti.tuned.imx686.bin|3827268ec776b9c365a11ed7a3bf1f43d453edc4
 vendor/lib64/camera/com.qti.tuned.ov13855.bin|2ade619f11ad90a86888c730e5a4e476e09f332d
 vendor/lib64/camera/com.qti.tuned.ov24b1q.bin|f2ac42719cf704907629597882c9d673214e191c
 vendor/lib64/camera/com.qti.tuned.ov8856.bin|b99dd41569e6fb722549823fc2f7a36a17c8818b
@@ -382,7 +382,7 @@ vendor/lib64/camera/fdconfigpreview.bin|296e62a60a81aa7ba153e6d4fd4af34d1b2a4c8b
 vendor/lib64/camera/fdconfigpreviewlite.bin|296e62a60a81aa7ba153e6d4fd4af34d1b2a4c8b
 vendor/lib64/camera/fdconfigvideo.bin|296e62a60a81aa7ba153e6d4fd4af34d1b2a4c8b
 vendor/lib64/camera/fdconfigvideolite.bin|296e62a60a81aa7ba153e6d4fd4af34d1b2a4c8b
-vendor/lib64/hw/camera.qcom.so|c064abf2ad046a05aeaba5a4623ce30873fcd0e0
+vendor/lib64/hw/camera.qcom.so|603fa27616ba04320ac0475ba1b9d7339fcb3edf
 vendor/lib64/hw/com.qti.chi.override.so|9626a95129a47165340dfe5565edf6e928f0e77f
 vendor/lib64/com.qti.feature2.anchorsync.so|21fa95e68e75aeb21c9334cef2a7145bae828891
 vendor/lib64/com.qti.feature2.arcrawpro.so|e4b55a014fb4565b51fe794862924d1f4fa79faa
@@ -581,14 +581,27 @@ vendor/etc/init/init.goodixfp.rc|38a48273b97fc430da77d76ad4c249e52812ec90
 -vendor/etc/vintf/manifest/android.hardware.biometrics.fingerprint@2.1-service.xml|49e82d6a43981e254d224dcc93b3ff27e0fb8407
 vendor/firmware/goodix_9886_cfg_group.bin|50e23ff45576f6ce3f71bffde99b89baa4631827
 vendor/firmware/goodix_9886_config.cfg|92af7040578240ce97c81c969080be247f883b6b
-vendor/firmware/goodix_9886_config_test.cfg|677a67ff425ed82a1cc5687565f182aa3a052c33
 vendor/firmware/goodix_9886_configs_glove.cfg|77c52877278037a8aaa627308f216d02b1b57489
+vendor/firmware/goodix_9886_config_station.cfg|0dbc38c5b2355e2fba5a9ef94c6bd0b65ee69d61
+vendor/firmware/goodix_9886_config_test.cfg|677a67ff425ed82a1cc5687565f182aa3a052c33
 vendor/firmware/goodix_9886_firmware.bin|449af2cabedb3d6556c567d2886ee2aea4fa9681
 vendor/firmware/goodix_9896_cfg_group.bin|1fe8066fe513553c959670498b8a059c8c06c825
 vendor/firmware/goodix_9896_config.cfg|59ca9a62296c21c91f297e3406e735bf6c3230d3
 vendor/firmware/goodix_9896_config_glove.cfg|0bdba150923d270f997c2cac9b2cd899cbcef43e
+vendor/firmware/goodix_9896_config_station.cfg|3b8bfa6eff0beb33700938a83a54b7d331ca756b
 vendor/firmware/goodix_9896_config_test.cfg|23f8f534864f6a60b893b3d023db60ee2509349e
 vendor/firmware/goodix_9896_firmware.bin|a693f7fd545d1e2c84b3d0b904ede27874d7865c
+vendor/firmware/goodix_cfg_station_9886.bin|a97326bf1cf2f04e5af04b81057fbd561ac89bda
+vendor/firmware/goodix_cfg_station_9896.bin|0f109199ad2f222ed2c2ff4edbd1ea45d4679a05
+vendor/firmware/goodixfp64.b00|6393f6eae8b8c3110adbce24c3246c351955ebe2
+vendor/firmware/goodixfp64.b01|2a5a73883838b460900da4aa349402ca43c90f47
+vendor/firmware/goodixfp64.b02|ca2ba2795db23a2c7e04f96c6c570dc85c355580
+vendor/firmware/goodixfp64.b03|f4bf8dd2e484f2b9a5fc122b94a582f801ed43f1
+vendor/firmware/goodixfp64.b04|ac2b4734860633000406fc53400e80bb5ca94453
+vendor/firmware/goodixfp64.b05|251ea1488491bac2c4a84e6914e6c6c37d0233d8
+vendor/firmware/goodixfp64.b06|d83ffca0d20581dba848d474023dc43a0c1510b6
+vendor/firmware/goodixfp64.b07|cefd27b4a83440ce628585397f3a20cb01530aec
+vendor/firmware/goodixfp64.mdt|2652ee6a3b751e73f167251718a8994bc93d2418
 vendor/firmware/goodixfp.b00|145c8bf16f33da8f4ccff3e1e6628abdc3e25d72
 vendor/firmware/goodixfp.b01|001a24ad9f4c7bf7a5a01c9cbfe70a4e8f125bb9
 vendor/firmware/goodixfp.b02|42150c2c1a8dc781878c0c00de7fd3a98733aeba
@@ -598,15 +611,6 @@ vendor/firmware/goodixfp.b05|6135edcefb2ab0f2f2d6cca7ebc1d8273948958e
 vendor/firmware/goodixfp.b06|4901a3983a94d809194dd03438ffd273a535d328
 vendor/firmware/goodixfp.b07|026f4b9a80457ef9a659e3664889bde92a5f78cf
 vendor/firmware/goodixfp.mdt|447d6a27b667fb10d25ea03040d0f2937c6b92a4
-vendor/firmware/goodixfp64.b00|f49707dba12d62f485b78137465b6bddc59bdf25
-vendor/firmware/goodixfp64.b01|d838ec5a07e41ed2336af7209d08adda7f24a73f
-vendor/firmware/goodixfp64.b02|54b1e47080d2d5c780bf1bd0a4778fcc1c3d5631
-vendor/firmware/goodixfp64.b03|f4bf8dd2e484f2b9a5fc122b94a582f801ed43f1
-vendor/firmware/goodixfp64.b04|a60830c76614a506312edac5b4b9bc38556469f5
-vendor/firmware/goodixfp64.b05|c6bdd7097cd05ce7197a96915f06970d6729cf1b
-vendor/firmware/goodixfp64.b06|d83ffca0d20581dba848d474023dc43a0c1510b6
-vendor/firmware/goodixfp64.b07|0a8430ea6fa73a0c9a01a0eb853a562a6ff1e709
-vendor/firmware/goodixfp64.mdt|a27974cbb429543d59e1cf8ad6023df0ad35db3c
 vendor/lib64/hw/fingerprint.default.so|35be53e455c6fbf4e77922941bb3f1e9c3951c95
 vendor/lib64/libgf_hal.so|5334be6ef6d8db8748db63dc4054f879b038d5a4
 vendor/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so|85c92d13eb52639abd15abefdb88a2b16b6299ad
@@ -647,7 +651,7 @@ vendor/lib64/libloc_api_v02.so
 vendor/lib64/libloc_socket.so
 vendor/lib64/liblocationservice.so
 vendor/lib64/liblocationservice_glue.so
-vendor/lib64/liblocdiagiface.so
+vendor/lib64/liblocdiagiface.so|31f88106b5aeceff4264f06ce5299455c3058499
 vendor/lib64/liblowi_client.so
 vendor/lib64/liblowi_wifihal.so
 vendor/lib64/libqcc_file_agent.so
@@ -1402,6 +1406,7 @@ vendor/lib64/vendor.asus.hardware.vibratorcontrol@1.0.so|4cff315b5e8a70fcb310489
 vendor/firmware/CNbdwlan.e17|5c7ebcf30dbbd0683796b030152bd99fa32311f9
 vendor/firmware/bdwlan.e17|84a4c1c4cf95cf41d53fa4ca3ba34f96ad52d17a
 vendor/firmware/key.cfg|e7d326520e8fe0cf472920b6136ad9d4fba26dc2
+vendor/firmware/m3.bin|091903cd172acff8c177cdd621565cbdda2215cf
 
 # Widevine - ROG
 vendor/bin/hw/android.hardware.drm@1.3-service.widevine|edc653af75e3e012227c152485d29c309cee8c82
@@ -1416,6 +1421,6 @@ vendor/firmware/widevine.b05|069d201245f17e0d2eeef15a45adfef23bfb4751
 vendor/firmware/widevine.b06|a55a1abb4b14990ad4b1445c230191397135c289
 vendor/firmware/widevine.b07|7eecc3fb6d5a99d20d0655e17085b347782aeea6
 vendor/firmware/widevine.mdt|9f2054c2517e65915c0a71b3bc880b185dacef16
-vendor/lib/mediadrm/libwvdrmengine.so|b0579a1b1c9edd82c9587b6b38d2e20ac6ba22d9
-vendor/lib64/mediadrm/libwvdrmengine.so|4528adb1a4b3e9461903a8336383c8e8aeb0c2f9
-vendor/lib64/libwvhidl.so|25e3615665f12d4107822bc4883efddf01415257
+vendor/lib/mediadrm/libwvdrmengine.so|dc674cdbf70900cf1a4f8e8801e908074b44b46e
+vendor/lib64/mediadrm/libwvdrmengine.so|b98bd0d7477429ca700622afd5b2dd56deb23507
+vendor/lib64/libwvhidl.so|3cf588684f5941e122f8fc973c51cfe1d31c7587

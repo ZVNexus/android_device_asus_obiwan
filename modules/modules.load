@@ -37,6 +37,10 @@ ms51_inbox.ko
 ene_8k41_power.ko
 ene_8k41_dock.ko
 nct7802.ko
+ec_i2c_interface.ko
+ene_6k582_station.ko
+station_key.ko
+station_goodix_touch.ko
 audio_rt5683.ko
 qca_cld3_qca6490.ko
 qca_cld3_qca6390.ko

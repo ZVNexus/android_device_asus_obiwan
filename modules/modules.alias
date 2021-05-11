@@ -2,6 +2,9 @@
 alias of:N*T*Cqcom,adsp-loader audio_adsp_loader
 alias of:N*T*Cqcom,adsp-loaderC* audio_adsp_loader
 alias asus:nuvoton-ms51 ms51_inbox
+alias platform:gpio-keys station_key
+alias of:N*T*Cstation-keys station_key
+alias of:N*T*Cstation-keysC* station_key
 alias of:N*T*Cqcom,audio-ref-clk audio_wcd9xxx
 alias of:N*T*Cqcom,audio-ref-clkC* audio_wcd9xxx
 alias of:N*T*Cqcom,wcd-dsp-mgr audio_wcd9xxx
@@ -9,6 +12,7 @@ alias of:N*T*Cqcom,wcd-dsp-mgrC* audio_wcd9xxx
 alias of:N*T*Crealtek,rt5683 audio_rt5683
 alias of:N*T*Crealtek,rt5683C* audio_rt5683
 alias i2c:rt5683 audio_rt5683
+alias asus:ene_6k582 ene_6k582_station
 alias platform:kona-asoc-snd audio_machine_kona
 alias of:N*T*Cqcom,kona-asoc-snd audio_machine_kona
 alias of:N*T*Cqcom,kona-asoc-sndC* audio_machine_kona
@@ -19,6 +23,18 @@ alias fs-tntfs tntfs
 alias i2c:nct7802 nct7802
 alias platform:swr-mstr audio_swr_ctrl
 alias asus:nuvoton-ml51 ml51fb9ae_inbox
+alias of:N*T*Cgoodix,gt9896 station_goodix_touch
+alias of:N*T*Cgoodix,gt9896C* station_goodix_touch
+alias of:N*T*Cgoodix,gt9886 station_goodix_touch
+alias of:N*T*Cgoodix,gt9886C* station_goodix_touch
+alias of:N*T*Cgoodix_station,gt9886 station_goodix_touch
+alias of:N*T*Cgoodix_station,gt9886C* station_goodix_touch
+alias of:N*T*Cgoodix,gt9889 station_goodix_touch
+alias of:N*T*Cgoodix,gt9889C* station_goodix_touch
+alias of:N*T*Cgoodix,gt5863 station_goodix_touch
+alias of:N*T*Cgoodix,gt5863C* station_goodix_touch
+alias i2c:station_gtx8 station_goodix_touch
+alias platform:goodix_ts_station station_goodix_touch
 alias i2c:tfa98xx audio_tfa9874
 alias input:b*v*p*e*-e*1,*3,*k*14A,*r*a*0,*1,*m*l*s*f*w* audio_usf
 alias input:b*v*p*e*-e*1,*3,*k*14A,*r*a*35,*36,*m*l*s*f*w* audio_usf
@@ -77,6 +93,7 @@ alias of:N*T*Cqcom,msm-dai-stub-dev audio_platform
 alias of:N*T*Cqcom,msm-dai-stub-devC* audio_platform
 alias of:N*T*Cqcom,msm-voice-host-pcm audio_platform
 alias of:N*T*Cqcom,msm-voice-host-pcmC* audio_platform
+alias asus:ec i2c ec_i2c_interface
 alias of:N*T*Cqcom,msm-ext-disp-audio-codec-rx audio_hdmi
 alias of:N*T*Cqcom,msm-ext-disp-audio-codec-rxC* audio_hdmi
 alias of:N*T*Cqcom,msm-audio-ion audio_q6
