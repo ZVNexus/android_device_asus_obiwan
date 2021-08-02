@@ -172,6 +172,9 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.display.mapper@3.0.vendor \
     vendor.qti.hardware.display.mapper@4.0.vendor
 
+PRODUCT_PACKAGES += \
+    android.hardware.lights-service.qti
+
 # Fastboot
 PRODUCT_PACKAGES += \
     fastbootd
