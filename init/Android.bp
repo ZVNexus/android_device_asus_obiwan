@@ -1,0 +1,31 @@
+//
+// Copyright (C) 2022 Paranoid Android
+// SPDX-License-Identifier: Apache-2.0
+//
+
+prebuilt_etc {
+    name: "fstab.qcom",
+    src: "fstab.qcom",
+    vendor: true,
+    vendor_ramdisk_available: true,
+}
+
+prebuilt_etc {
+    name: "init.rog.rc",
+    src: "init.rog.rc",
+    sub_dir: "init",
+    device_specific: true,
+}
+
+prebuilt_etc {
+    name: "init.target.rc",
+    src: "init.target.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "ueventd.rog.rc",
+    src: "ueventd.rog.rc",
+    device_specific: true,
+}
