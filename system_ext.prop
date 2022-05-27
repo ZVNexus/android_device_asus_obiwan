@@ -1,2 +1,5 @@
+# Adreno
+ro.gfx.driver.0=com.asus.gpudrivers.kona.api30
+
 # Charging
 ro.charger.enable_suspend=1
