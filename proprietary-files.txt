@@ -70,7 +70,6 @@ vendor/firmware/a650_zap.elf|cfd50ccb4cdd44690e483955c6185625c464ac9e
 vendor/firmware/a650_zap.mdt|1b91925c85b41329ff4e0bde59b31a0aa627202a
 
 # Audio
-vendor/lib/hw/sound_trigger.primary.kona.so
 vendor/lib/soundfx/libasphere.so
 vendor/lib/soundfx/libqcbassboost.so
 vendor/lib/soundfx/libqcreverb.so
@@ -119,7 +118,6 @@ vendor/lib/libsmwrapper.so
 vendor/lib/libstagefright_soft_qtiflacdec.so
 vendor/lib/libsurround_3mic_proc.so
 vendor/lib/vendor.qti.voiceprint@1.0.so
-vendor/lib64/hw/sound_trigger.primary.kona.so
 vendor/lib64/soundfx/libasphere.so
 vendor/lib64/soundfx/libqcbassboost.so
 vendor/lib64/soundfx/libqcreverb.so
