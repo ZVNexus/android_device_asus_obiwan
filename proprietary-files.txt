@@ -174,9 +174,18 @@ vendor/firmware/tfa98xx.cnt|617d7db564128f9b28cfcce1e1f772c10e8eb239
 vendor/lib/libacdb-fts.so|6bc647c3dfd28a5eb812b0e232c45c3d5deb04f3
 vendor/lib/libacdbloader.so|52fcdb425eca00c9259d6dab2ff8d97ab33c7546
 vendor/lib/libacdbrtac.so|303f98f24b538c181807256e0bea514ed73231e4
+vendor/lib/libozoaudiodecoder.so|27db166086482f0b09b6011f547a4776b5e8ab5f
+vendor/lib/libozoaudioencoder.so|da5a68fadc3152fb5a8ec33dbcd0b3f6c99ecd9c
+vendor/lib/soundfx/libdiraceffect.so|0b71605216c159342d3759f5038f29b880690ed4
+vendor/lib/soundfx/libhaptic_effect.so|df462047e6bc4b5175e6d6d86b906e418438a345
+vendor/lib/soundfx/libozoprocessing.so|4c677e3aa56af2216871a9ad14d24c9d2696a829
 vendor/lib64/libacdb-fts.so|789501399475e00f41248ee9566dae8c02783bac
 vendor/lib64/libacdbloader.so|eddc03bc83eb57f459ded751b27531bddc42c17f
 vendor/lib64/libacdbrtac.so|18de643509f126e8f2269e0061499a2c9fa39cd7
+vendor/lib64/libozoaudiodecoder.so|8f0bbfb7c64d430d6e3aa99e82013e0bc1945722
+vendor/lib64/libozoaudioencoder.so|d82d676f89a8852896c7eb791ac93aa02d699128
+vendor/lib64/soundfx/libhaptic_effect.so|fdaffc6c67ae03fac5502ed1c0adff2a7fae88d3
+vendor/lib64/soundfx/libozoprocessing.so|465bc8eeac6bae5f88a926ecc158fa7e034d21d2
 
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
