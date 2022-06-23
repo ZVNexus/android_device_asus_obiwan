@@ -214,6 +214,7 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.sh \
     init.qti.dcvs.sh \
     init.target.rc \
+    ueventd.asus.rc \
     ueventd.qcom.rc
 
 # Keymaster

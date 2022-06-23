@@ -6,3 +6,50 @@
 
 on early-init
     exec u:r:vendor_modprobe:s0 -- /vendor/bin/modprobe -a -d /vendor/lib/modules audio_rt5683 audio_tfa9874 ec_i2c_interface ene_6k582_station ene_8k41_dock ene_8k41_power ml51fb9ae_inbox nct7802 station_goodix_touch station_key texfat tntfs
+
+on boot
+    # Light
+    chown system shell /sys/class/sensors/lsensor/adc
+    chown system shell /sys/class/sensors/lsensor/cal
+    chown system shell /sys/class/sensors/lsensor/read_reg
+    chown system shell /sys/class/sensors/lsensor/selection
+    chown system shell /sys/class/sensors/lsensor/switch
+    chown system shell /sys/class/sensors/lsensor/write_reg
+    chown system shell /sys/class/sensors/lsensor_2nd/adc
+    chown system shell /sys/class/sensors/lsensor_2nd/cal
+    chown system shell /sys/class/sensors/lsensor_2nd/selection
+    chown system shell /sys/class/sensors/lsensor_2nd/switch
+
+    # Proximity
+    chown system shell /sys/class/sensors/psensor/hi_cal
+    chown system shell /sys/class/sensors/psensor/inf_cal
+    chown system shell /sys/class/sensors/psensor/load_cal
+    chown system shell /sys/class/sensors/psensor/low_cal
+    chown system shell /sys/class/sensors/psensor/proxm
+    chown system shell /sys/class/sensors/psensor/read_reg
+    chown system shell /sys/class/sensors/psensor/selection
+    chown system shell /sys/class/sensors/psensor/switch
+    chown system shell /sys/class/sensors/psensor/write_reg
+    chown system shell /sys/class/sensors/psensor_2nd/hi_cal
+    chown system shell /sys/class/sensors/psensor_2nd/inf_cal
+    chown system shell /sys/class/sensors/psensor_2nd/load_cal
+    chown system shell /sys/class/sensors/psensor_2nd/low_cal
+    chown system shell /sys/class/sensors/psensor_2nd/proxm
+    chown system shell /sys/class/sensors/psensor_2nd/read_reg
+    chown system shell /sys/class/sensors/psensor_2nd/read_reg
+    chown system shell /sys/class/sensors/psensor_2nd/selection
+
+    chown system shell /sys/class/sensors/psensor_2nd/switch
+
+on post-fs-data
+    write /sys/class/sensors/psensor/load_cal 1
+    write /sys/class/sensors/psensor_2nd/load_cal 1
+
+service vendor.sensors-hal-2-0-multihal /vendor/bin/hw/android.hardware.sensors@2.0-service.multihal
+    override
+    class hal
+    user system
+    group system wakelock context_hub input
+    writepid /dev/cpuset/system-background/tasks
+    capabilities BLOCK_SUSPEND
+    rlimit rtprio 10 10
