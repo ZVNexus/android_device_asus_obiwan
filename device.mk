@@ -283,6 +283,7 @@ PRODUCT_ENFORCE_RRO_TARGETS := *
 
 PRODUCT_PACKAGES += \
     FrameworksResTarget \
+    ROGFrameworksOverlay \
     WifiResTarget
 
 # Partitions
