@@ -817,7 +817,16 @@ vendor/etc/seccomp_policy/codec2.vendor.base-arm.policy
 vendor/etc/seccomp_policy/codec2.vendor.ext-arm.policy
 -vendor/etc/vintf/manifest/c2_manifest_vendor.xml
 vendor/etc/media_codecs_c2.xml
+vendor/etc/media_codecs_kona_vendor.xml
+vendor/etc/media_codecs_kona.xml
 vendor/etc/media_codecs_performance_c2.xml
+vendor/etc/media_codecs_performance_kona_vendor.xml
+vendor/etc/media_codecs_performance_kona.xml
+vendor/etc/media_codecs_vendor_audio.xml
+vendor/etc/media_codecs.xml
+vendor/etc/media_profiles_kona.xml
+vendor/etc/media_profiles_vendor.xml
+vendor/etc/media_profiles.xml
 vendor/lib/libOmxSwVdec.so
 vendor/lib/libOmxSwVencMpeg4.so
 vendor/lib/libOmxVideoDSMode.so
