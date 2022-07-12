@@ -1,0 +1,9 @@
+on boot
+    chown system system /sys/class/udc/a600000.dwc3/state
+    chown system system /sys/class/udc/a800000.dwc3/state
+    start usb-udc-switch
+
+service usb-udc-switch /vendor/bin/usb-udc-switch
+    class late_start
+    user system
+    group system

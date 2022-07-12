@@ -1,0 +1,15 @@
+//
+// Copyright (C) 2022 The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+cc_binary {
+    name: "usb-udc-switch",
+    init_rc: ["usb-udc-switch.rc"],
+    shared_libs: [
+        "libbase",
+        "liblog",
+    ],
+    srcs: ["usb-udc-switch.cpp"],
+    vendor: true,
+}
