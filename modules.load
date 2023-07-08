@@ -49,3 +49,4 @@ texfat.ko
 tntfs.ko
 wigig_sensing.ko
 wil6210.ko
+wsa883x_dlkm.ko
