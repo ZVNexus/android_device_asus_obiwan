@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2022 The LineageOS Project
+# Copyright (C) 2022-2023 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -254,7 +254,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     android.hardware.media.c2@1.0.vendor \
-    init.qti.media.rc \
     init.qti.media.sh \
     libOmxCore \
     libOmxVdec \
