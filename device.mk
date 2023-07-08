@@ -277,7 +277,8 @@ PRODUCT_PACKAGES += \
     android.hardware.nfc@1.2-service.pn8x
 
 PRODUCT_SOONG_NAMESPACES += \
-    vendor/nxp/nfc
+    vendor/nxp/nfc \
+    vendor/nxp/secure_element
 
 # Namespaces
 PRODUCT_SOONG_NAMESPACES += \
