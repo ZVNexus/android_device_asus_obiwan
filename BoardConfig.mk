@@ -119,7 +119,10 @@ BOARD_KERNEL_PAGESIZE := 4096
 
 BOARD_KERNEL_IMAGE_NAME := Image
 TARGET_KERNEL_ADDITIONAL_FLAGS := ASUS_BUILD_PROJECT=ZS661KS
-TARGET_KERNEL_CONFIG := vendor/ZS661KS-perf_defconfig
+TARGET_KERNEL_CONFIG := \
+    vendor/kona-perf_defconfig \
+    vendor/debugfs.config \
+    vendor/obiwan.config
 TARGET_KERNEL_SOURCE := kernel/asus/sm8250
 
 # Kernel Modules
