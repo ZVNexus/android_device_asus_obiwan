@@ -215,6 +215,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init/fstab.qcom:$(TARGET_COPY_OUT_RAMDISK)/fstab.qcom
 
 PRODUCT_PACKAGES += \
+    android.hardware.camera.provider@2.4-service_64-qcom.rc \
     fstab.asus \
     fstab.qcom \
     init.asus.rc \

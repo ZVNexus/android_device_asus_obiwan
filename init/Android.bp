@@ -4,6 +4,13 @@
 //
 
 prebuilt_etc {
+    name: "android.hardware.camera.provider@2.4-service_64-qcom.rc",
+    src: "android.hardware.camera.provider@2.4-service_64-qcom.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
     name: "fstab.asus",
     src: "fstab.asus",
     vendor: true,
